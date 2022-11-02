@@ -1,0 +1,25 @@
+[
+  {
+    "id": "ap_con_mix",
+    "name": { "str": "stationary concrete mixer" },
+    "categories": [ "utility" ],
+    "description": "This device produces concrete using your power grid instead of batteries.",
+    "symbol": "$",
+    "color": "dark_gray",
+    "damage_modifier": 10,
+    "damage_reduction": { "all": 30 },
+    "durability": 60,
+    "flags": [ "OBSTACLE", "APPLIANCE" ],
+    "pseudo_tools": [ { "id": "pseudo_con_mix", "hotkey": "p" } ],
+    "epower": 0,
+    "item": "con_mix",
+    "looks_like": "con_mix",
+    "breaks_into": [
+      { "item": "scrap", "count": [ 2, 7 ] },
+      { "item": "steel_chunk", "count": [ 0, 3 ] },
+      { "item": "sheet_metal", "count": [ 2, 6 ] },
+      { "item": "cable", "charges": [ 1, 15 ] }
+    ],
+    "type": "vehicle_part"
+  }
+]

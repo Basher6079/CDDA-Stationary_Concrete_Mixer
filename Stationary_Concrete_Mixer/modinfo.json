@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "stationary_concrete_mixer",
+    "name": "Stationary Mixer",
+    "authors": [ "Basher" ],
+    "maintainers": [ "Basher" ],
+    "description": "Allows the concrete mixer to be placed as an appliance.",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]
